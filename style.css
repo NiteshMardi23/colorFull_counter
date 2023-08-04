@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@0;1&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gluten', cursive;
+}
+
+body,html{
+    display: grid;
+    min-height: 100%;
+    place-items: center;
+    background-color: rgb(246, 243, 239);
+    color: rgba(51, 163, 194, 0.977);
+}
+
+.container{
+    width: 600px;
+    height: 350px;
+    box-shadow: 10px 10px 15px rgb(192, 183, 183),-10px -10px 15px white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+.heading{
+    font-size: 3rem;
+}
+#counter{
+    font-size: 5rem;
+    margin-bottom: 1rem;
+}
+.lower , .add{
+    font-size: 1.3rem;
+    outline: none;
+    padding: 0.7rem;
+    cursor: pointer;
+    margin: 0 2rem;
+}
+
+.lower:hover{
+    color: red;
+}
+
+.add:hover{
+    color: green;
+}
